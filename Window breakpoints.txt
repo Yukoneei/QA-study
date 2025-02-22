@@ -1,0 +1,15 @@
+Rozetka
+1024 px
+960 px
+896 px
+858 px
+767 px
+
+Bookshop:
+1199 px
+992 px
+991 px на елементі з класом class="header__top-nav header__top-nav-margin" кнопки не мають відступів між собою
+766 px
+
+
+							        		
