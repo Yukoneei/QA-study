@@ -1,0 +1,184 @@
+{
+  "id": "e20075c2-26a5-4591-ba33-3ef3fae63cfa",
+  "version": "2.0",
+  "name": "Bookstore",
+  "url": "https://starylev.com.ua/",
+  "tests": [{
+    "id": "a0f227f6-369b-4545-91eb-0afefeec1424",
+    "name": "Add product to a card",
+    "commands": [{
+      "id": "247ccad8-e415-461c-b634-c93893fbfbfc",
+      "comment": "",
+      "command": "open",
+      "target": "https://starylev.com.ua/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b60ad5a2-6fba-42e6-b015-b40628ff6a36",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5d6aec63-9f25-47ab-895a-928a30e049ff",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-col .ant-input",
+      "targets": [
+        ["css=.ant-col .ant-input", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/section/header/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f3da2f0-4e7e-4796-a49e-83851dad4903",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.ant-col .MobileButton_mobile-button__Qlmw9:nth-child(2) > img",
+      "targets": [
+        ["css=.ant-col .MobileButton_mobile-button__Qlmw9:nth-child(2) > img", "css:finder"],
+        ["xpath=//img[@alt='search']", "xpath:img"],
+        ["xpath=//div[@id='__next']/section/header/div/div/div[2]/div/div/button/img", "xpath:idRelative"],
+        ["xpath=//button/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2fc5f205-c02e-4f40-8c6a-06bd6f894c30",
+      "comment": "",
+      "command": "type",
+      "target": "css=.ant-col .ant-input",
+      "targets": [
+        ["css=.ant-col .ant-input", "css:finder"],
+        ["xpath=//input[@value='кобзар']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/section/header/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "кобзар"
+    }, {
+      "id": "ad31bae0-9274-4807-b108-aa50e8febdf5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-col .MobileButton_mobile-button__Qlmw9:nth-child(2) > img",
+      "targets": [
+        ["css=.ant-col .MobileButton_mobile-button__Qlmw9:nth-child(2) > img", "css:finder"],
+        ["xpath=//img[@alt='search']", "xpath:img"],
+        ["xpath=//div[@id='__next']/section/header/div/div/div[2]/div/div/button/img", "xpath:idRelative"],
+        ["xpath=//button/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b2f64c76-447f-4eed-a6b3-5d8ee0f42198",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.ant-col .MobileButton_mobile-button__Qlmw9:nth-child(2) > img",
+      "targets": [
+        ["css=.ant-col .MobileButton_mobile-button__Qlmw9:nth-child(2) > img", "css:finder"],
+        ["xpath=//img[@alt='search']", "xpath:img"],
+        ["xpath=//div[@id='__next']/section/header/div/div/div[2]/div/div/button/img", "xpath:idRelative"],
+        ["xpath=//button/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2cb9ea52-1c8f-44e5-a4f4-cca5395e2213",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Кобзар. Вибрані твори",
+      "targets": [
+        ["linkText=Кобзар. Вибрані твори", "linkText"],
+        ["css=.Search_search__result-item__mwb8m:nth-child(7) .lato-h2 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Кобзар. Вибрані твори')]", "xpath:link"],
+        ["xpath=//div[@id='__next']/section/main/div/div[5]/div/div[7]/div[2]/h2/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/knyzka-kobzar-vybrani-tvory')]", "xpath:href"],
+        ["xpath=//div[7]/div[2]/h2/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Кобзар. Вибрані твори')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ec57975c-4dee-4681-b981-e4e2560f7224",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "be9709d2-3a6b-42d1-9d95-adade490d4e7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-page__atc-button",
+      "targets": [
+        ["css=.product-page__atc-button", "css:finder"],
+        ["xpath=//div[@id='__next']/section/main/div/div[2]/div/div[2]/div/div[7]/button", "xpath:idRelative"],
+        ["xpath=//div[7]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'У кошик')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8aca1f9c-42ed-4723-b92c-15405fcfcbba",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cart-drawer__footer",
+      "targets": [
+        ["css=.cart-drawer__footer", "css:finder"],
+        ["xpath=//div[3]/div/div/div[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "060f4f51-f385-4b87-9742-432fdea2b876",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Buttons_bordered__tXysq",
+      "targets": [
+        ["css=.Buttons_bordered__tXysq", "css:finder"],
+        ["xpath=//div[2]/div[2]/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Повернутися на сайт')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "085c7210-9d96-45a9-9d85-4245855495a7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.HeaderButton_header__icon__QVrVc > img",
+      "targets": [
+        ["css=.HeaderButton_header__icon__QVrVc > img", "css:finder"],
+        ["xpath=//img[@alt='cart']", "xpath:img"],
+        ["xpath=//div[@id='__next']/section/header/div/div/div[2]/div[2]/div/button/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4695c545-121c-4bf4-8150-c171b9ffd4d1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-label",
+      "targets": [
+        ["css=.btn-label", "css:finder"],
+        ["xpath=//div[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Видалити')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd53ca60-cf7b-4fdb-9707-83b88c780b5e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-drawer-close > img",
+      "targets": [
+        ["css=.ant-drawer-close > img", "css:finder"],
+        ["xpath=//img[@alt='hide']", "xpath:img"],
+        ["xpath=//div[3]/div/div/div/div/button/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "ac599311-253d-4e02-a181-887b531851c4",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://book-ye.com.ua/", "https://starylev.com.ua/"],
+  "plugins": []
+}
